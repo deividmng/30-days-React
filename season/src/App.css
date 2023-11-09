@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Establece la altura del contenedor al 100% del viewport height */
+}
+
+.time-container {
+  border: 3px solid green;
+}
+
+.time-text-container.morning {
+  
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.time-text-container.afternoon {
+  background-color: lightorange;
+  padding: 10px;
+}
+
+.time-text-container.night {
+  
+  background-color: lightgray;
+  padding: 10px;
+}

@@ -1,0 +1,81 @@
+.info , h2{
+  text-align: center;
+
+}
+
+
+.chart {
+ 
+  margin: 50px 350px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+
+.country-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Alinea los elementos del contenedor al final */
+  padding-bottom: 10px
+}
+
+.bar {
+  height: 20px;
+  background-color: orange;
+  margin-left: 72px;
+  border-radius: 4px;
+ 
+}
+
+.country , ul {
+  list-style: none;
+}
+
+.country {
+  max-width: 28px;
+}
+
+
+
+.population {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido al final del contenedor .population */
+  width: 100%; /* Asegura que ocupa todo el ancho del contenedor */
+}
+
+
+.buttons {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; 
+}
+
+.buttons , button {
+  cursor: pointer;
+}
+
+.btn-green{
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+}
+
+
+
+.btn-red{
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+
+
+
+.bar-red {
+  background-color: red;
+}
+
+.bar-green {
+  background-color: green;
+}

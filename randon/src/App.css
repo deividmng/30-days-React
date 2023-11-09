@@ -1,0 +1,64 @@
+.text {
+  background-color: rgb(64, 155, 235);
+  margin-bottom: 33px
+}
+
+.data {
+  padding-top: 33px;
+  padding-bottom: 10px;
+  margin-left: 53px;
+}
+
+
+.country-info {
+  text-align: left;
+ /* Establece el color del borde a gris */
+}
+
+
+.container {
+  width: 80%; /* Ancho del contenedor */
+  margin: 0 auto; /* Centra el contenedor en la página */
+  padding: 20px; /* Espaciado interno del contenedor */
+  border-radius: 10px; /* Esquinas redondeadas para crear una forma ovalada */
+  box-shadow: 0 0 11px  #8c8989; /* Efecto de sombra del contenedor */
+  margin-bottom: 33px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+.country-info .info-item {
+  color: #05010b; /* Color de texto oscuro para la información del país */
+  margin: 8px 0; /* Espaciado entre los párrafos de información */
+  font-size: 25px;
+}
+
+
+.button {
+  background-color: rgb(64, 155, 235);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+
+
+
