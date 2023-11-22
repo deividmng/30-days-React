@@ -1,0 +1,8 @@
+.move-on-click {
+    transition: transform 0.12s ease-in-out;
+  }
+  
+  .move-on-click:active {
+    transform: translateY(5px); /* Puedes ajustar la cantidad de desplazamiento según tus preferencias */
+  }
+  
