@@ -1,0 +1,101 @@
+
+
+.imgpoke{
+  max-width: 400px;
+ 
+
+}
+.imgpoke {
+margin-left: 33px;
+position: absolute;
+z-index: -1;
+}
+
+.buttom {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 42px;
+  padding-right: 22px;
+  
+}
+
+.pokemon {
+  text-align: center;
+}
+
+/* App.scss */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  height: 100vh; /* Toma el 100% de la altura de la ventana */
+}
+
+
+.pokemon-info {
+  /* Estilos para la información del Pokemon a la derecha */
+}
+
+.abilities {
+ margin-left: 22px;
+    p{
+      font-size: 22px;
+    }
+}
+
+
+.pokemon-name {
+  margin-left: 40px;
+}
+
+
+.img-pokemon {
+  max-width: 300px;
+  max-height: 300px;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.share {
+  margin-left: 12px;
+  padding: 10px 20px; /* Ajusta el padding según sea necesario */
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  background-color: #ffcb05; /* Color de fondo */
+  color: red; /* Color del texto */
+  border: 2px solid blue ; /* Quita el borde */
+  border-radius: 5px; /* Añade bordes redondeados */
+  cursor: pointer;
+
+  &:hover {
+    background-color: red; 
+    color: #ffcb05;
+}
+}
+
+.input {
+  border-left: 2px solid #3498db;  
+  border-right: 2px solid #3498db;
+  border-radius: 15px;    
+  padding: 8px;                   
+  width: 200px;   
+}
+
+
+.container {
+  background-image: url(./pokeball-pokemon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 30%;
+
+
+}
+
+body {
+  background-image: url(./paisaje.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
