@@ -1,0 +1,27 @@
+.user-card ,img{
+   
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+ 
+}
+
+.AppMain {
+    margin-left: 90px;
+}
+
+.Ul {
+    list-style: none;
+}
+
+.InfoName {
+    font-size: 22px;
+}
+
+.white {
+   margin-left: 100px;
+ 
+   height: 45vh;
+ 
+}

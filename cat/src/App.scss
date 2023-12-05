@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: 
+  #d9d2f6; 
+  h3 {
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 0;
+  }
+}
+
+/* Estilos CSS */
+/* Estilos CSS */
+.Weight {
+  display: inline-block;
+  width: 70px; /* Ajusta el tamaño del círculo según tus preferencias */
+  height: 70px; /* Ajusta el tamaño del círculo según tus preferencias */
+  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+ /* Color de fondo verde */
+  text-align: center;
+  line-height: 65px; /* Ajusta según tus preferencias para centrar el texto verticalmente */
+  color: green; /* Color del texto dentro del círculo */
+  font-size: 24px;
+  font-weight: bold; /* Tamaño del texto dentro del círculo */
+  border: 2px dotted white; /* Borde de tipo "dotted" en color blanco */
+  margin-right: 10px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 33px;
+}
+
+body {
+  background-color: #d9d2f6;
+}
+
+
+
+
+
